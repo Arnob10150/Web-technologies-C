@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+</head>
+<body class="light">
+    <header>
+        <h1>My Portfolio</h1>
+        <div id="greeting"></div>
+        <button id="themeToggle">Switch to Dark Mode</button>
+        <nav>
+            <a id="aboutLink">About</a>
+            <a id="projectsLink">Projects</a>
+            <a id="contactLink">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio.My name is Arnob Aich Anurag. I am a web developer passionate about creating interactive websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects...CNN-LSTM Etc</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label>Name:</label>
+            <input type="text" id="name">
+            <div class="error" id="nameError"></div>
+
+            <label>Email:</label>
+            <input type="email" id="email">
+            <div class="error" id="emailError"></div>
+
+            <label>Message:</label>
+            <textarea id="message" rows="5"></textarea>
+            <div class="error" id="messageError"></div>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

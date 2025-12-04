@@ -1,0 +1,53 @@
+
+body {
+    font-family: Calibri;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.user-card {
+    position: relative;              
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #dddddd;      
+    background-color: #ffffff;      
+    border-radius: 12px;             
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-card .badge {
+    position: absolute;              
+    top: 10px;                       
+    right: 10px;
+    background-color: #046799;
+    color: #ffffff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;              
+    object-fit: cover;
+    display: block;
+    margin: 0px auto 15px auto;
+}
+
+.user-name {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+
+.user-bio {
+    margin: 0;
+    font-size: 14px;
+    color: #555555;
+}

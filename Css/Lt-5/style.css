@@ -1,0 +1,25 @@
+  body{
+  font-family:Calibri;
+  background-color:#f2f2f2;
+  margin:0;
+  padding:0;
+  height:2000px;
+}
+.contact-section{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:9999;
+  width:180px;
+  padding: 15px 20px;
+  border: 2px solid #005bb5;
+  background-color: #0073e6;
+  
+}
+.contact-section:hover{
+  background-color:#005bb5;
+  cursor:pointer;
+}
+.contact-section a{
+  color:yellow;
+}

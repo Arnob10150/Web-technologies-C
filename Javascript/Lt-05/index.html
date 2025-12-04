@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <script src="script.js" defer></script>
+
+    <style>
+        #resultBox {
+            margin-top:10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            width: 400px;
+        }
+        textarea {
+            width: 600px;
+            height: 150px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Text Analyzer Tool</h2>
+
+    <textarea id="textInput" placeholder="Paste your text here..."></textarea>
+    <br>
+    <button id="analyzeBtn">Analyze Text</button>
+
+    <div id="resultBox">
+        <p>Total Characters: <span id="charCount">0</span></p>
+        <p>Total Words: <span id="wordCount">0</span></p>
+        <p>Reversed Text: <span id="reverseText">0</span></p>
+    </div>
+
+</body>
+</html>
